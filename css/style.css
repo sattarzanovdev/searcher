@@ -13,12 +13,12 @@ main{
 .logo {
     display: flex;
     justify-content: center;
+    margin-top: 150px;
 }
 
-.logo h1{
-    color: orange;
-    font-family: montserrat;
-    font-size: 50px;
+.logo img{
+    width: 350px;
+    padding: 50px 0;
 }
 
 .search {
