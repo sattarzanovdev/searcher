@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    background: #2B2A33;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo h1{
+    color: orange;
+    font-family: montserrat;
+    font-size: 50px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.search img{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 10px;
+    right: 660px;
+    background: white;
+    border-radius: 100px;
+    padding: 3px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.search input{
+    width: 700px;
+    height: 50px;
+    outline: 0;
+    border: 0;
+    background: #42414D;
+    border-radius: 10px;
+    box-shadow: 0 0.5px 5px gray;
+    color: white;
+    padding-left: 50px;
+    font-family: "Montserrat", sans-serif;    
+}
+
+.popular-websites{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.popular-websites li {
+    text-align: center;
+    color: white;
+    font-family: montserrat;
+    margin-top: 25px;
+    
+}
+
+.youtube{
+    padding: 10px 20px;
+}
+
+.youtube:hover{
+    background: #585763;
+    border-radius: 5px;
+}
+
+.youtube li a img{
+    width: 50px;
+}
+
+.youtube li{
+    padding: 5px;
+}
+
+.instagram:hover{
+    background: #585763;
+    border-radius: 5px;
+}
+
+.instagram{
+    margin-left: 50px;
+    padding: 10px 20px;
+}
+
+.instagram li a img{
+    width: 50px;
+}
+
+
+
+.google {
+    margin-left: 50px;
+    padding: 10px 30px;
+}
+
+.google:hover{
+    background: #585763;
+    border-radius: 5px;
+}
+
+.google li a img{
+    width: 50px;
+}
