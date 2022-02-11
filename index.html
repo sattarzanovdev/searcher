@@ -12,18 +12,13 @@
             <div class="logo">
                 <img src="img/logo.png" alt="">
             </div>
-            <div class="search">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/1200px-Google_%22G%22_Logo.svg.png" alt="">
-                <input type="search" name="search" placeholder="Ищите..." src="js/script.js">
-            </div>        
             
-            <script async src="https://cse.google.com/cse.js?cx=24505263bb327b50f"></script>
-            <div class="gcse-searchbox-only"></div> 
+            <script src="js/search.js"></script>
 
             <div class="popular-websites">
-                <div class="youtube">
+                <div class="youtube" onclick="youtube()">
                     <li>
-                        <a href="https://youtube.com/">
+                        <a href="">
                             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/2560px-YouTube_full-color_icon_%282017%29.svg.png" alt="youtube">
                         </a>
                     </li>
@@ -31,9 +26,9 @@
                         YouTube
                     </li>
                 </div>
-                <div class="instagram">
+                <div class="instagram" onclick="instagram()">
                     <li>
-                        <a href="https://instagram.com/">
+                        <a href="">
                             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/800px-Instagram_logo_2016.svg.png" alt="instagram">
                         </a>
                     </li>
@@ -41,9 +36,9 @@
                         Instagram
                     </li>
                 </div>
-                <div class="google">
+                <div class="google" onclick="google()">
                     <li>
-                        <a href="https://google.com/">
+                        <a href="">
                             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/1200px-Google_%22G%22_Logo.svg.png" alt="google">
                         </a>
                     </li>
@@ -52,6 +47,8 @@
                     </li>
                 </div>
             </div>
+
+            <script src="js/clicksToIcons.js"></script>
         </main>
         <script src="js/script.js"></script> 
     </body>

@@ -32,7 +32,7 @@ main{
     height: 20px;
     position: absolute;
     top: 10px;
-    right: 660px;
+    right: 770px;
     background: white;
     border-radius: 100px;
     padding: 3px;
@@ -45,12 +45,34 @@ main{
     height: 50px;
     outline: 0;
     border: 0;
+    box-shadow: 0 0.5px 5px gray;
     background: #42414D;
     border-radius: 10px;
-    box-shadow: 0 0.5px 5px gray;
     color: white;
     padding-left: 50px;
     font-family: "Montserrat", sans-serif;    
+    font-size: 13px;
+}
+
+.search li{
+    background: orange;
+    list-style: none;
+    padding: 15px 15px;
+    border-radius: 10px;
+    margin-left: 25px;
+    box-shadow: 0 2px 5px gray;
+    cursor: pointer;
+}
+
+.search li:hover{
+    background: rgb(226, 147, 0);
+}
+
+
+.search li a{
+    color: #2B2A33;
+    font-family: montserrat;
+    text-decoration: none;
 }
 
 .popular-websites{
@@ -75,6 +97,7 @@ main{
 .youtube:hover{
     background: #585763;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .youtube li a img{
@@ -88,6 +111,7 @@ main{
 .instagram:hover{
     background: #585763;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .instagram{
@@ -108,9 +132,16 @@ main{
 
 .google:hover{
     background: #585763;
+    cursor: pointer;
     border-radius: 5px;
 }
 
 .google li a img{
     width: 50px;
 }
+
+.youtube-text{
+    color: white;
+}
+
+
