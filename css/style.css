@@ -155,7 +155,7 @@ main{
 }
 @media screen and (max-width: 425px) {
     .search{
-        margin-left: 20px;
+        margin-left: 15px;
     }
     .search input{
         width: 270px;
@@ -167,6 +167,7 @@ main{
         margin-left: 10px;
     }
     .instagram {
+        margin-left: 15px;
         padding: 8px 10px;
     }
     .youtube {
@@ -174,6 +175,7 @@ main{
     }
     .google {
         padding: 8px 10px;
+        margin-left: 20px;
     }
     .logo img{
         width: 250px;
