@@ -155,7 +155,7 @@ main{
 }
 @media screen and (max-width: 425px) {
     .search{
-        margin-left: 10px;
+        margin-left: 5px;
     }
     .search input{
         width: 270px;
