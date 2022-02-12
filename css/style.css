@@ -145,3 +145,70 @@ main{
 }
 
 
+@media screen and (max-width: 768px) {
+    .search input{
+        width: 600px;
+    }
+    .search img{
+        right: 670px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .search{
+        margin-left: 20px;
+    }
+    .search input{
+        width: 270px;
+    }
+    .search img{
+        right: 340px;
+    }
+    .popular-websites{
+        margin-left: 10px;
+    }
+    .instagram {
+        padding: 8px 10px;
+    }
+    .youtube {
+        padding: 8px 10px;
+    }
+    .google {
+        padding: 8px 10px;
+    }
+    .logo img{
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .search{
+        margin-left: 40px;
+    }
+    .search input{
+        width: 200px;
+    }
+    .search img{
+        right: 270px;
+    }
+    .popular-websites{
+        margin-left: 20px;
+    }
+    .instagram {
+        padding: 8px 10px;
+        margin-left: 10px;
+    }
+    .youtube {
+        padding: 8px 10px;
+    }
+    .google {
+        padding: 8px 10px;
+        margin-left: 15px;
+    }
+    .instagram li a img{
+        width: 50px;
+    }
+    .logo img{
+        width: 250px;
+        margin-left: 30px;
+    }
+}
